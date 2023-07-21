@@ -18,12 +18,13 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>Team Hack Squad</h1>
-        <h2 className={styles.subTitle}>
-          Disk Management App:
+        <h1 className={styles.subTitle}>
+          Disk MG:
           <a href={downloadUrl} download style={{ marginLeft: "4vw" }}>
             <CloudDownloadIcon sx={{ fontSize: "1.8em" }} />
           </a>
-        </h2>
+        </h1>
+        <h4>"Disk MG: Optimize, Organize, and Unleash Your Storage!"</h4>
       </main>
     </div>
   );
