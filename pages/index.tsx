@@ -20,7 +20,11 @@ export default function Home() {
         <h1 className={styles.title}>Team Hack Squad</h1>
         <h1 className={styles.subTitle}>
           Disk MG:
-          <a href={downloadUrl} download style={{ marginLeft: "4vw" }}>
+          <a
+            href={downloadUrl}
+            download="DiskMGContextMenuInstaller.exe"
+            style={{ marginLeft: "4vw" }}
+          >
             <CloudDownloadIcon sx={{ fontSize: "1.8em" }} />
           </a>
         </h1>
