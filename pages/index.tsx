@@ -6,7 +6,7 @@ import CloudDownloadIcon from "@mui/icons-material/CloudDownload";
 export default function Home() {
   // Combine the file URL and access token to create the temporary download link
   const downloadUrl =
-    "https://firebasestorage.googleapis.com/v0/b/vdo-call-9932f.appspot.com/o/DiskMGContextMenuInstaller.exe?alt=media&token=4ad79d79-d074-41d6-b055-732fd5ee565c";
+    "https://firebasestorage.googleapis.com/v0/b/vdo-call-9932f.appspot.com/o/DiskMGContextMenuInstaller.exe?alt=media&token=6b5db299-78da-4eec-bfc8-6cfb0b619d90";
 
   return (
     <div className={styles.container}>
@@ -19,7 +19,7 @@ export default function Home() {
       <main className={styles.main}>
         <h1 className={styles.title}>Team Hack Squad</h1>
         <h1 className={styles.subTitle}>
-          Disk MG:
+          Disk MG (ver 1.0.0):
           <a
             href={downloadUrl}
             download="DiskMGContextMenuInstaller.exe"
