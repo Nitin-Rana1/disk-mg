@@ -24,7 +24,9 @@ export default function Home() {
             <CloudDownloadIcon sx={{ fontSize: "1.8em" }} />
           </a>
         </h1>
-        <h4>"Disk MG: Optimize, Organize, and Unleash Your Storage!"</h4>
+        <h4>
+          &quot;Disk MG: Optimize, Organize, and Unleash Your Storage!&quot;
+        </h4>
       </main>
     </div>
   );
