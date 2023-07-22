@@ -6,7 +6,7 @@ import CloudDownloadIcon from "@mui/icons-material/CloudDownload";
 export default function Home() {
   // Combine the file URL and access token to create the temporary download link
   const downloadUrl =
-    "https://firebasestorage.googleapis.com/v0/b/vdo-call-9932f.appspot.com/o/Disk_MG.exe?alt=media&token=2967fd90-b41c-4b34-a63e-750d818aa6e3";
+    "https://firebasestorage.googleapis.com/v0/b/vdo-call-9932f.appspot.com/o/Disk_MG.exe?alt=media&token=76d4ae72-b7f2-4bb6-9b25-754ae655cd59";
 
   return (
     <div className={styles.container}>
